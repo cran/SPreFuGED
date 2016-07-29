@@ -1,0 +1,12 @@
+exportPattern("^[[:alpha:]]+")
+import("CMA")
+importFrom("Biobase", "exprs")
+importFrom("stats", "cor", "median", "model.matrix", "predict", "rbinom", "rexp", "rnorm", "runif", "sd", "var")
+importFrom("lattice", "bwplot", "xyplot")
+importFrom("limma", "makeContrasts", "lmFit", "eBayes", "topTable", "contrasts.fit")
+importFrom("lme4", "sdcor2cov", "lmer")
+importFrom("boot", "inv.logit", "logit")
+importFrom("mvtnorm", "rmvnorm")
+importFrom("methods", "new")
+importFrom("utils", "data")
+
